@@ -14,3 +14,5 @@ For a detailed implementation guide, refer to [Creating a Simple CRUD Todo List 
 
 > [!WARNING]  
 > This app uses in-memory storage, meaning data will not persist after the server restarts. It's ideal for learning or prototyping purposes.
+
+ curl -X POST http://url.it -H "content-type: application/json" -H "accept:application/xml" -d {\"nome\":\"uno\",\"valoe\":\"1\" }
